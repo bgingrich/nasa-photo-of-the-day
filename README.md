@@ -47,19 +47,19 @@ Follow these steps for completing your project.
 
 ## Directions
 
-**Step 1 - Planning**
+### **Step 1 - Planning**
 
 - If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
 - Once you have a design plan in mind, break down the designs into individual components.
 - Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
 - Now it's time to jump into the code!
 
-**Step 2 - File structure**
+### **Step 2 - File structure**
 
 - Take a look at your planned components. Create the folders and files you need for each component.
 - Leave most of them blank for now - you need to get your data from the API before you can really get these built.
 
-**Step 3 - Fetching the Data**
+### **Step 3 - Fetching the Data**
 
 - In `App.js` (or where ever you wanted to fetch the data) add state for the data you'll be getting from NASA.
 - Add an effect hook to handle the API call side effect.
@@ -77,11 +77,11 @@ DEMO KEY rate limits:
 
 _Note: if the photo url is NOT a photo, you will need to learn how to display a video in a React app on your own, OR just fetch the APOD from a different date by adding this to the back of the API endpoint: `&date=2012-03-14`_
 
-**Step 4 - Adding the Data to State**
+### **Step 4 - Adding the Data to State**
 
 - Once you have made the call correctly, and logged the data, add the data to the state property you built.
 
-**Step 5 - Display the Data**
+### **Step 5 - Display the Data**
 Now is the time to build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
 
 ## _MVP Requirements:_
