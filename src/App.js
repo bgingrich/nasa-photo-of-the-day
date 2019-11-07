@@ -5,9 +5,6 @@ import TopCard from "./components/TopCard";
 import MiddleCard from "./components/MiddleCard";
 import BottomCard from "./components/BottomCard";
 
-
-
-
 function App() {
   const [title, setTitle] = useState([]);
   const [url,setUrl] = useState([]);
@@ -31,10 +28,22 @@ function App() {
   return (
     <div className="App">
       <div className="App-grid">
-      <TopCard title = {title} image={url}/>
-      <MiddleCard date = {date}/>
+      <TopCard title = {title}/>
+      <MiddleCard date = {date} image = {url}/>
       <BottomCard explanation = {explanation}/>
     </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     </div>
   );
 }
